@@ -1,0 +1,103 @@
+:root{
+  --bg:#07131f; --panel:#0e2236; --card:#112a42; --line:#1e4468;
+  --text:#e6f1fa; --muted:#8fa9c0; --accent:#35b7ff; --accent-d:#1789c8;
+  --ok:#2ecc8f; --err:#ff6b6b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#10345a,var(--bg));
+  color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
+a{color:var(--accent)}
+.top{display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:center;justify-content:space-between;
+  padding:1rem 1.5rem;border-bottom:1px solid var(--line);background:rgba(7,19,31,.7);backdrop-filter:blur(6px)}
+.brand h1{margin:0;font-size:1.6rem;letter-spacing:.04em;color:var(--accent)}
+.brand p{margin:0;color:var(--muted);font-style:italic;font-size:.9rem}
+nav{display:flex;gap:1.2rem}
+nav a{text-decoration:none;font-weight:600;color:var(--text)}
+nav a:hover{color:var(--accent)}
+.who{display:flex;align-items:center;gap:.5rem}
+.wallet{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:center;padding:.6rem 1.5rem;
+  background:var(--panel);border-bottom:1px solid var(--line)}
+.money{color:#ffd166;font-weight:700}
+main{max-width:1150px;margin:0 auto;padding:1.5rem}
+h2,h3,h4{margin:.2rem 0 .6rem}
+.muted{color:var(--muted)} .small{font-size:.85rem}
+
+input,select,textarea,button{font:inherit;color:var(--text)}
+input,select,textarea{background:#0a1b2c;border:1px solid var(--line);border-radius:6px;padding:.45rem .6rem}
+textarea{width:100%}
+button,.btn-link{background:var(--accent-d);border:0;border-radius:6px;padding:.5rem .9rem;cursor:pointer;
+  font-weight:600;text-decoration:none;color:#fff;display:inline-block}
+button:hover:not(:disabled),.btn-link:hover{background:var(--accent)}
+button:disabled{background:#1a3350;color:var(--muted);cursor:not-allowed}
+button.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+button.danger{background:#7a2b36}
+button.danger:hover{background:var(--err)}
+button.small,.btn-link.small{padding:.25rem .6rem;font-size:.85rem}
+
+.flash{padding:.7rem 1rem;border-radius:8px;margin-bottom:1rem;border:1px solid}
+.flash.ok{background:rgba(46,204,143,.12);border-color:var(--ok)}
+.flash.error{background:rgba(255,107,107,.12);border-color:var(--err)}
+
+.rules{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1rem 1.3rem;margin-bottom:1.2rem}
+.rules ul{margin:.2rem 0 .6rem;padding-left:1.2rem;font-style:italic}
+
+.tabs{display:flex;gap:.5rem;margin-bottom:1rem}
+.tabs a{padding:.3rem .9rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--text)}
+.tabs a.on{background:var(--accent-d);border-color:var(--accent-d)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:1rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1rem;display:flex;flex-direction:column;gap:.5rem}
+.card p{margin:0;flex:1;color:#cfe0ee;font-size:.93rem}
+.card.soldout{opacity:.5}
+.card-head{display:flex;justify-content:space-between;align-items:baseline;gap:.5rem}
+.card-head h3{margin:0;font-size:1.1rem}
+.price{background:#0a1b2c;border:1px solid #ffd166;color:#ffd166;border-radius:999px;padding:.05rem .7rem;font-weight:700;white-space:nowrap}
+.tags{display:flex;flex-wrap:wrap;gap:.3rem}
+.tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;padding:.05rem .5rem;border-radius:4px;
+  background:#0a1b2c;border:1px solid var(--line);color:var(--muted)}
+.tag.consumable{color:#7fe0b0;border-color:#2b6b50}
+.tag.equipment{color:#b3a2ff;border-color:#51449a}
+.tag.owned{color:#ffd166;border-color:#8a6c1f}
+.card form button{width:100%}
+
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem 1.3rem;margin-bottom:1.2rem}
+.narrow{max-width:520px;margin:2rem auto}
+.stack{display:flex;flex-direction:column;gap:.8rem}
+.stack label{display:flex;flex-direction:column;gap:.25rem;color:var(--muted);font-size:.9rem}
+.stack label.check{flex-direction:row;align-items:center;gap:.5rem}
+.row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.4rem 0}
+.between{justify-content:space-between}
+.char{border-top:1px solid var(--line);margin-top:1rem;padding-top:.6rem}
+.inv{list-style:none;padding:0;margin:.5rem 0 0}
+.inv li{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;padding:.5rem 0;border-top:1px dashed var(--line)}
+.inv.compact li{padding:.2rem 0;align-items:center}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:.45rem .5rem;border-bottom:1px solid var(--line);vertical-align:middle}
+th{color:var(--muted);font-weight:600;font-size:.85rem}
+tr.soldout td{opacity:.55}
+.log{list-style:none;padding:0;margin:0;max-height:300px;overflow:auto}
+.log li{padding:.25rem 0;border-bottom:1px dashed var(--line)}
+@media (max-width:640px){main{padding:1rem} table{font-size:.85rem}}
+
+/* ---- images ---- */
+.amt{display:inline-flex;align-items:center;gap:.25rem;white-space:nowrap}
+.cicon{width:20px;height:20px;vertical-align:middle}
+.cicon.lg{width:34px;height:34px}
+.iicon{width:52px;height:52px;object-fit:contain;flex:none;border-radius:8px;background:rgba(0,0,0,.25);padding:3px}
+.iicon.sm{width:36px;height:36px;padding:2px}
+.iicon.lg{width:84px;height:84px}
+.iicon.ph{display:inline-flex;align-items:center;justify-content:center;color:var(--muted);
+  border:1px dashed var(--line);font-weight:700}
+.sicon{width:1.05em;height:1.05em;vertical-align:-.15em;margin:0 .15em}
+.sicon.lg{width:24px;height:24px;margin:0}
+.card-head{align-items:center}
+.card-head h3{flex:1}
+.grow{flex:1}
+.inv li{align-items:center}
+.imgfield{display:flex;gap:1rem;align-items:center}
+label.inline{display:inline-flex;flex-direction:row;align-items:center;gap:.4rem}
+label.check{display:inline-flex;align-items:center;gap:.4rem;color:var(--muted);font-size:.9rem}
+.statuslist{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0}
+.chip{display:inline-flex;align-items:center;gap:.4rem;background:#0a1b2c;border:1px solid var(--line);
+  border-radius:999px;padding:.15rem .3rem .15rem .6rem}
+.chip button{padding:0 .5rem;border-radius:999px}

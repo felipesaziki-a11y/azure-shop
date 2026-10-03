@@ -1,0 +1,197 @@
+[
+  {
+    "name": "K Corp. HP Ampules",
+    "price": 180,
+    "category": "consumable",
+    "description": "K Corp.'s HP Ampules, break and consume them when sustaining serious damage. At the start of the scene, you may consume 1x HP Ampule to recover 90% of your Max HP and Max Stagger Resist.",
+    "image": "img/items/k-corp-hp-ampules.png"
+  },
+  {
+    "name": "Old T Corp. Watch",
+    "price": 40,
+    "category": "consumable",
+    "description": "An old T Corp. Watch, it still ticks. For 3 battles, gain 1 Haste at the end of every scene of those battles.",
+    "image": "img/items/old-t-corp-watch.png"
+  },
+  {
+    "name": "Deluxe T Corp. Watch",
+    "price": 70,
+    "category": "consumable",
+    "description": "A Deluxe T Corp. Watch, it looks gorgeous. For 3 battles, gain 2 Haste at the end of every scene of those battles.",
+    "image": "img/items/deluxe-t-corp-watch.png"
+  },
+  {
+    "name": "Gorilla Bolus",
+    "price": 70,
+    "category": "consumable",
+    "description": "A Bolus rolled up into a ball. At the start of a scene, consume 1x Gorilla Bolus to gain 2 Strength.",
+    "image": "img/items/gorilla-bolus.png"
+  },
+  {
+    "name": "Ape Bolus",
+    "price": 65,
+    "category": "consumable",
+    "description": "Three Boluses rolled up into pills. At the start of the scene, consume 1x Ape Bolus to apply 1 Strength to three allies (including yourself).",
+    "image": "img/items/gorilla-bolus.png"
+  },
+  {
+    "name": "Porcupine Bolus",
+    "price": 60,
+    "category": "consumable",
+    "description": "A Bolus rolled up into a ball. At the start of a scene, consume 1x Porcupine Bolus to gain 3 Thorns.",
+    "image": "img/items/porcupine-bolus.png"
+  },
+  {
+    "name": "Tortoise Bolus",
+    "price": 55,
+    "category": "consumable",
+    "description": "A Bolus rolled up into a ball. At the start of a scene, consume 1x Tortoise Bolus to gain 2 Endurance.",
+    "image": "img/items/tortoise-bolus.png"
+  },
+  {
+    "name": "Terrapin Bolus",
+    "price": 50,
+    "category": "consumable",
+    "description": "Three Boluses rolled up into pills. At the start of the scene, consume 1x Terrapin Bolus to apply 1 Endurance to three allies (including yourself).",
+    "image": "img/items/tortoise-bolus.png"
+  },
+  {
+    "name": "Fox Bolus",
+    "price": 45,
+    "category": "consumable",
+    "description": "A Bolus rolled up into a ball. At the start of a scene, consume 1x Fox Bolus to gain 2 Haste.",
+    "image": "img/items/fox-bolus.png"
+  },
+  {
+    "name": "Wolf Bolus",
+    "price": 40,
+    "category": "consumable",
+    "description": "Three Boluses rolled up into pills. At the start of a scene, consume 1x Wolf Bolus to apply 1 Haste to three allies (including yourself).",
+    "image": "img/items/fox-bolus.png"
+  },
+  {
+    "name": "Bee Comb Perfume",
+    "price": 65,
+    "category": "consumable",
+    "description": "\"Honey sweet aroma, attracts everyone\"™ At the start of a scene, consume 1x Bee Comb Perfume to gain 6 Aggro.",
+    "image": "img/items/bee-comb-perfume.png"
+  },
+  {
+    "name": "Fixer Magazine",
+    "price": 60,
+    "category": "consumable",
+    "description": "Be updated on the newest Fixer trends, and maybe gain some inspiration. Consume 1x Fixer Magazine, then remove 1 Anxiety and gain 2 Excellence.",
+    "image": "img/items/fixer-magazine.png"
+  },
+  {
+    "name": "Boombox of Dramatic Entrances",
+    "price": 60,
+    "category": "consumable",
+    "description": "Great to enact some vengeance. At the start of a scene, consume 1x Boombox of Dramatic Entrances for all allies to gain 3 Emotion Points (including yourself).",
+    "image": "img/items/boombox-of-dramatic-entrances.png"
+  },
+  {
+    "name": "Broken Greatsword",
+    "price": 60,
+    "category": "consumable",
+    "description": "The best defense, but unfortunately it wasn't enough. At the start of a scene, consume 1x Broken Greatsword to gain or apply 2 Protection to an ally.",
+    "image": "img/items/broken-greatsword.png"
+  },
+  {
+    "name": "Backpack",
+    "price": 130,
+    "category": "equipment",
+    "inventory_bonus": 2,
+    "per_mission_limit": 1,
+    "description": "A backpack. It can hold a lot of items to lighten the burden. +2 Inventory space.",
+    "image": "img/items/backpack.png"
+  },
+  {
+    "name": "Sharp Needle & Thread",
+    "price": 150,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "Sharp Needle and Thread, to stitch things up. After the use of the first skill that dealt damage in this scene, the target takes damage = half the total damage that skill dealt (after all modifiers).",
+    "image": "img/items/sharp-needle-thread.png"
+  },
+  {
+    "name": "Recorded Logs of that Day",
+    "price": 200,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "Guidance to not repeat that day. When becoming staggered, recover all Stagger Resist and gain 12 Poise. This effect activates once per Mission.",
+    "image": "img/items/recorded-logs-of-that-day.png"
+  },
+  {
+    "name": "Bridle",
+    "price": 180,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "Face your sins. Gain +10 Max HP and +5 Max Stagger Resist for every Boss battle you have fought in this mission (up to 30 and 15 respectively).",
+    "image": "img/items/bridle.png"
+  },
+  {
+    "name": "Broken Blade",
+    "price": 180,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "The broken blade of a Hwando. On hit, if it was critical, deal additional damage = half the total damage dealt (after all modifiers).",
+    "image": "img/items/broken-blade.png"
+  },
+  {
+    "name": "Tangled Bones",
+    "price": 130,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "A bundle of bones from a certain Abnormality. Offensive Dice on a skill that can inflict Sinking gain +1 Power.",
+    "image": "img/items/tangled-bones.png"
+  },
+  {
+    "name": "Interlocked Cogs",
+    "price": 130,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "Interlocked brass cogs. Offensive Dice on a skill that can inflict Tremor gain +1 Power.",
+    "image": "img/items/interlocked-cogs.png"
+  },
+  {
+    "name": "Decamillenal Stewpot",
+    "price": 130,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "A stewpot containing a stone soup. Offensive Dice on a skill that can inflict Burn gain +1 Power.",
+    "image": "img/items/decamillenal-stewpot.png"
+  },
+  {
+    "name": "Recollection of a Certain Day",
+    "price": 130,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "An old portrait, the face in it is obscured. Offensive Dice on a skill that can gain Poise gain +1 Power.",
+    "image": "img/items/recollection-of-a-certain-day.png"
+  },
+  {
+    "name": "Millarca",
+    "price": 130,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "A torn rose from a certain Abnormality. Offensive Dice on a skill that can inflict Bleed gain +1 Power.",
+    "image": "img/items/millarca.png"
+  },
+  {
+    "name": "Thorny Rope Cuffs",
+    "price": 130,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "Thorny vines made to catch someone. Offensive Dice on a skill that can inflict Rupture gain +1 Power.",
+    "image": "img/items/thorny-rope-cuffs.png"
+  },
+  {
+    "name": "T-1B Octagonal Bolt",
+    "price": 130,
+    "category": "equipment",
+    "max_owned": 1,
+    "description": "An octagonal bolt made out of plastic. Offensive Dice on a skill that can gain Charge gain +1 Power.",
+    "image": "img/items/t-1b-octagonal-bolt.png"
+  }
+]
